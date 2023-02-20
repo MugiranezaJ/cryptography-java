@@ -1,7 +1,7 @@
 package org.example;
 
 public class CaesarCipher {
-    private String ALPHABET = " ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private String ALPHABET = " ABCDEFGHIJKLMNOPQRSTUVWXYZ!";
 
     public String encrypt(String plainText, int key){
         plainText = plainText.toUpperCase();
